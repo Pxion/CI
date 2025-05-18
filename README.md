@@ -1,6 +1,6 @@
 
 # 基于神经网络与计算智能优化的金融风控模型
-[![GitHub Repo Status](https://img.shields.io/github/status/your-username/your-repo.svg)](https://github.com/your-username/your-repo)
+
 [![Python Version](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -10,7 +10,6 @@
 - [技术路线](#技术路线)
 - [主要内容](#主要内容)
 - [如何运行](#如何运行)
-- [文件结构](#文件结构)
 - [贡献说明](#贡献说明)
 - [许可证](#许可证)
 - [联系信息](#联系信息)
@@ -70,39 +69,8 @@ pip install pandas numpy scikit-learn tensorflow lightgbm xgboost requests matpl
   data/
   └─ dataset.csv
   ```
-
-### 3. 代码运行步骤
-```bash
-# 1. 数据预处理与特征工程
-python code/data_preprocessing.py
-
-# 2. 特征选择（遗传算法）
-python code/feature_selection_ga.py
-
-# 3. 模型训练与优化（蚁群算法+模拟退火）
-python code/model_training_aco_sa.py
-
-# 4. 结果可视化
-python code/visualization.py
-```
-
-
-## 文件结构
-```
-.
-├─ code/                # 代码目录
-│  ├─ data_preprocessing.py   # 数据预处理
-│  ├─ feature_selection_ga.py # 遗传算法特征选择
-│  ├─ model_training_aco_sa.py# 模型训练与优化
-│  └─ visualization.py        # 结果可视化
-├─ data/                # 数据集目录（需手动下载）
-├─ docs/                # 文档目录
-│  └─ 研究报告.pdf       # 项目详细说明
-├─ models/              # 训练好的模型权重
-├─ LICENSE             # 许可证文件
-└─ README.md           # 项目说明
-```
-
+### 3.运行code.py文件
+须确认代码中数据集路径正确。
 
 ## 贡献说明
 欢迎提交Issue或Pull Request改进模型：  
