@@ -78,8 +78,4 @@ pip install pandas numpy scikit-learn tensorflow lightgbm xgboost requests matpl
 2. 优化计算智能算法参数  
 3. 改进模型架构设计  
 
-
-## 许可证
-本项目采用MIT许可证，详情见[LICENSE](LICENSE)。
-
 如果需要帮助或合作，请随时联系！
